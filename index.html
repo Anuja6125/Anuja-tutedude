@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Laundry Mart</h1>
+    <p><i>Here Your Clothes Will Be Cleaned and Nurtured</i></p>
+
+    <img src="Laundry.jpg" width="200" alt="Laundry Mart Image">
+
+    <h2>Our Services:</h2>
+    <ul>
+        <li>Washing</li>
+        <li>Drying</li>
+        <li>Ironing</li>
+        <li>Folding</li>
+        <li>Pickup and Delivery</li>
+    </ul>
+
+    <table border="1">
+        <caption>Prices</caption>
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Washing</td>
+                <td>10 per load</td>
+            </tr>
+            <tr>
+                <td>Drying</td>
+                <td>4 per load</td>
+            </tr>
+            <tr>
+                <td>Ironing</td>
+                <td>3 per item</td>
+            </tr>
+            <tr>
+                <td>Folding</td>
+                <td>2 per item</td>
+            </tr>
+            <tr>
+                <td>Pickup and Delivery</td>
+                <td>20 flat rate</td>
+            </tr>
+        </tbody>        
+    </table>
+
+    <form>
+        <h2>Book Now</h2>
+        <label for="name">
+           Name:<input type="text" id="name">
+        </label>
+        <br>
+        <label for="email">
+            Email : <input type="email" id="email">
+         </label>
+         <br>
+        <label for="phone">
+            Phone: <input type="tel" id="phone">
+        </label>
+        <br>
+        <label for="service">
+            Select Service:
+            <select id="service">
+                <option value="washing">Washing</option>
+                <option value="drying">Drying</option>
+                <option value="ironing">Ironing</option>
+                <option value="folding">Folding</option>
+                <option value="pickup_delivery">Pickup and Delivery</option>
+            </select>
+        <button type="submit">Book Now</button>
+    </form>
+    <br>
+
+Contact us at <a href="mailto:laundry@gmail.com">laundry@gmail.com</a>
+</body>
+</html>
